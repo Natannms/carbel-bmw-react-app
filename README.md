@@ -1,31 +1,47 @@
-# Create React App
+# Carbel BMW React App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+## Resumo do Projeto
 
-## Deploy Your Own
+Este projeto é uma aplicação React que utiliza diversas tecnologias modernas para oferecer uma experiência dinâmica e eficiente. Abaixo estão as principais tecnologias empregadas:
 
-Deploy your own Create React App project with Vercel.
+- **Zustand:** Utilizado para o controle de estado, o Zustand oferece uma gestão de estado simples e eficiente, facilitando a comunicação entre componentes.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+- **React Material UI:** Componentes do Material UI são integrados para a criação de formulários e elementos de interface, proporcionando um design moderno e responsivo.
 
-_Live Example: https://create-react-template.vercel.app/_
+- **React Icons:** A biblioteca React Icons é empregada para a inclusão de ícones, adicionando um toque visual atrativo e funcional à aplicação.
 
-## Available Scripts
+- **Tailwind CSS:** O Tailwind CSS é utilizado para a estilização, oferecendo uma abordagem utilitária e facilitando a criação de interfaces estilizadas de forma eficiente.
 
-In the project directory, you can run:
+## Pré-requisitos
 
-### `npm start`
+Antes de começar, certifique-se de ter o Node.js e o npm instalados.
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js: [Baixar Node.js](https://nodejs.org/)
+- npm: Geralmente é instalado junto com o Node.js
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+1. Clone o repositório:
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/Natannms/carbel-bmw-react-app.git
+    ```
 
-### `npm run build`
+2. Navegue até o diretório do projeto:
 
-Builds the app for production to the `build` folder.
+    ```bash
+    cd carbel-bmw-react-app
+    ```
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+3. Instale as dependências:
+
+    ```bash
+    npm install
+    ```
+
+## Uso
+
+Para iniciar o projeto, utilize o seguinte comando:
+
+```bash
+npm start
